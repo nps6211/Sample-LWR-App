@@ -1,0 +1,20 @@
+<template>
+    <div class="container">
+        <lightning-layout horizontal-align="center">
+            <lightning-layout-item padding="around-medium">
+                <div class="slds-text-heading_large">Sample LWC App</div>
+            </lightning-layout-item>
+        </lightning-layout>
+        <lightning-layout horizontal-align="center">
+            <lightning-layout-item padding="around-medium">
+                <lightning-input onchange={handleOnChange} value={inputVal} label="Enter Name"></lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-medium">
+                <lightning-button label="Click Me!" onclick={handleClick}></lightning-button>
+            </lightning-layout-item>
+        </lightning-layout>
+        <lightning-layout horizontal-align="center">
+            <lightning-layout-item padding="around-medium"><div>Entered Value: {inputVal}</div></lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>
