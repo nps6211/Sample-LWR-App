@@ -3,7 +3,7 @@
     "assets": [
         {
             "alias": "assetsDir",
-            "dir": "$rootDir/src/assets",
+            "dir": "$rootDir/node_modules/@salesforce-ux/design-system/assets",
             "urlPath": "/assets"
         }
     ],
